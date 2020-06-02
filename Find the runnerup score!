@@ -1,0 +1,8 @@
+  n = int(raw_input())
+    arr = map(int, raw_input().split())
+    m=max(arr)         
+    a=-9999999999
+    for i in range(0,n):
+        if m!=arr[i]and arr[i]>a:
+            a=arr[i]  
+    print(a)
