@@ -1,0 +1,14 @@
+n=int(input())
+z=0
+k=0
+a=list(input().split())
+for i in a:
+    if i=='MARKS':
+        break
+    else:
+        k=k+1
+for i in range(0,n):
+    x=list(input().split())
+    s=int(x[k])
+    z=z+s
+print(z/n)
