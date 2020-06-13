@@ -1,0 +1,9 @@
+n=int(input())
+b=[]
+c={}
+for i in range(n):
+    a=input().split()
+    p=(float(a[1])+float(a[2])+float(a[3]))/3
+    c[a[0]]=p
+d=input()
+print("{:.2f}".format(c[d]))
